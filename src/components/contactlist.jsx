@@ -16,7 +16,7 @@ function ContactList(props) {
         contactlist2.map((contact) => {
             return (
 
-                <div key={contact.name} className="bg-green-400 bg-opacity-50 border-2 filter drop-shadow-md border-green-600 hover:bg-green-500 filter drop-shadow-xl">
+                <div key={contact.name} className="bg-green-200 bg-opacity-50 filter drop-shadow-md rounded hover:bg-green-300 filter drop-shadow-xl">
                     <ContactItem id={contact.id} name={contact.name} email={contact.email} phone={contact.phone} handledelete={handledelete}></ContactItem>
                 </div>
             )

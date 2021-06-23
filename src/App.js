@@ -69,7 +69,7 @@ function App() {
       </div>
       <div className="">
         <ContactContext.Provider value={{ contactlist: contactlist, handleedit: handleedit }}>
-          <div className="mt-10 grid grid-cols-3 gap-4 p-1 pl-20">
+          <div className="mt-10 grid grid-cols-4 gap-4 p-1 pl-20">
             <ContactList handledelete={handledelete}></ContactList>
           </div>
           <div className="mt-10 border-t-2 border-green-600 p-1 pl-20">
